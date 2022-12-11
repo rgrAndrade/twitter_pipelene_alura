@@ -6,3 +6,4 @@ airflow_pipeline/airflow.cfg
 airflow_pipeline/standalone_admin_password.txt
 airflow_pipeline/webserver_config.py
 airflow_pipeline/airflow.db
+airflow_pipeline/hook/__pycache__/twitter_hook.cpython-39.pyc

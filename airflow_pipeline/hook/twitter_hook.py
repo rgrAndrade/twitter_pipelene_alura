@@ -78,3 +78,18 @@ if __name__ == "__main__":
         
         
         
+if __name__ == "__main__":
+    #montando url
+    TIMESTAMP_FORMAT = "%Y-%m-%dT%H:%M:%S.00Z"
+
+    #end_time = datetime.now().strftime(TIMESTAMP_FORMAT)
+    #start_time = (datetime.now() + timedelta(-1)).date().strftime(TIMESTAMP_FORMAT)
+    
+    end_time = (datetime.now() + timedelta(seconds=-10)).strftime(TIMESTAMP_FORMAT)
+
+    start_time = (datetime.now() + timedelta(days=-1, seconds=-10)).strftime(TIMESTAMP_FORMAT)
+    
+    query = "datascience"        
+        
+        
+        
