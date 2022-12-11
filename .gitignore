@@ -1,3 +1,8 @@
 src/
 venv/
-airflow_pipeline/
+airflow_pipeline/logs
+airflow_pipeline/airflow-webserver.pid
+airflow_pipeline/airflow.cfg
+airflow_pipeline/standalone_admin_password.txt
+airflow_pipeline/webserver_config.py
+airflow_pipeline/airflow.db
